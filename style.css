@@ -1,0 +1,81 @@
+h1 {
+    /* 水平方向の中央揃え */
+    text-align: center;
+    color: #eb6100;
+  }
+.omikuji {
+    /* 水平方向の中央揃え */
+    font-size: 16px;
+    text-align: center;
+  }
+.item {
+    /* 水平方向の中央揃え */
+    font-size: 16px;
+    text-align: center;
+  }
+
+.omikujinakami{
+  margin: 0 auto;
+  background-color: antiquewhite;
+  width: 500px;
+}
+
+.itemnakami{
+  margin: 0 auto;
+  background-color: antiquewhite;
+  width: 500px;
+}
+
+  /*まずはお決まりのボックスサイズ算出をborer-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.button{
+  text-align: center;
+  margin: 20px;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+}
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+}
+
